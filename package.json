@@ -1,78 +1,20 @@
 {
   "name": "react-ts-demoplate",
-  "author": "amr",
-  "licence": "MIT",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "lint": "eslint ./src",
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "ie 11",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "ie 11",
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
   "dependencies": {
-    "@auth0/auth0-spa-js": "^1.11.0",
     "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
-    "@date-io/core": "^2.8.0",
-    "@date-io/moment": "^1.3.13",
-    "@fullcalendar/core": "^4.4.2",
-    "@fullcalendar/daygrid": "^4.4.2",
-    "@fullcalendar/interaction": "^4.4.2",
-    "@fullcalendar/list": "^4.4.2",
-    "@fullcalendar/react": "^4.4.2",
-    "@fullcalendar/timegrid": "^4.4.2",
-    "@fullcalendar/timeline": "^4.4.2",
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
-    "@material-ui/lab": "^4.0.0-alpha.56",
-    "@material-ui/pickers": "^3.2.10",
-    "@material-ui/styles": "^4.10.0",
-    "@mdx-js/react": "^1.6.14",
-    "@react-pdf/renderer": "^1.6.10",
-    "@reduxjs/toolkit": "^1.4.0",
     "@svgr/webpack": "5.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
-    "@types/node": "^13.13.15",
-    "@types/history": "^4.7.7",
-    "@types/js-cookie": "^2.2.6",
-    "@types/jsonwebtoken": "^8.5.0",
-    "@types/jwt-decode": "^2.2.1",
-    "@types/lodash": "^4.14.158",
-    "@types/nprogress": "^0.2.0",
+    "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
-    "@types/react-beautiful-dnd": "^12.1.3",
     "@types/react-dom": "^16.9.8",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
-    "@types/react-draft-wysiwyg": "^1.13.0",
-    "@types/react-helmet": "^5.0.16",
-    "@types/react-redux": "^7.1.9",
-    "@types/react-router-dom": "^5.1.5",
-    "@types/redux-form": "^8.2.7",
-    "@types/redux-logger": "^3.0.8",
-    "@types/uuid": "^7.0.4",
-    "@types/yup": "^0.28.3",
-    "apexcharts": "^3.19.3",
-    "axios": "^0.19.2",
-    "axios-mock-adapter": "^1.18.2",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",
@@ -81,15 +23,10 @@
     "bfj": "^7.0.2",
     "camelcase": "^6.1.0",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
-    "change-case": "^4.1.1",
-    "chart.js": "^2.9.3",
-    "clsx": "^1.1.1",
     "css-loader": "4.3.0",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
-    "draft-js": "^0.11.6",
     "eslint": "^7.11.0",
-    "eslint-loader": "3.0.3",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.22.1",
@@ -101,28 +38,13 @@
     "eslint-webpack-plugin": "^2.1.0",
     "file-loader": "6.1.1",
     "fs-extra": "^9.0.1",
-    "firebase": "^7.17.1",
-    "formik": "^2.1.5",
-    "history": "^4.10.1",
     "html-webpack-plugin": "4.5.0",
     "identity-obj-proxy": "3.0.0",
-    "immer": "^6.0.9",
-    "immutable": "^4.0.0-rc.12",
     "jest": "26.6.0",
     "jest-circus": "26.6.0",
     "jest-resolve": "26.6.0",
-    "jest-environment-jsdom-fourteen": "1.0.1",
     "jest-watch-typeahead": "0.6.1",
-    "js-cookie": "^2.2.1",
-    "jsonwebtoken": "^8.5.1",
-    "jss": "^10.3.0",
-    "jss-rtl": "^0.3.0",
-    "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.19",
     "mini-css-extract-plugin": "0.11.3",
-    "moment": "^2.27.0",
-    "notistack": "^0.9.17",
-    "nprogress": "^0.2.0",
     "optimize-css-assets-webpack-plugin": "5.0.4",
     "pnp-webpack-plugin": "1.6.4",
     "postcss-flexbugs-fixes": "4.2.1",
@@ -131,31 +53,11 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "5.0.2",
     "prompts": "2.4.0",
-    "prismjs": "^1.20.0",
-    "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-apexcharts": "^1.3.7",
     "react-app-polyfill": "^2.0.0",
-    "react-beautiful-dnd": "^13.0.0",
-    "react-chartjs-2": "^2.9.0",
     "react-dev-utils": "^11.0.1",
     "react-dom": "^17.0.1",
     "react-refresh": "^0.8.3",
-    "react-draft-wysiwyg": "^1.14.5",
-    "react-dropzone": "^10.2.2",
-    "react-feather": "^2.0.8",
-    "react-helmet": "^5.2.1",
-    "react-markdown": "^4.3.1",
-    "react-modal-image": "^2.5.0",
-    "react-perfect-scrollbar": "^1.5.8",
-    "react-quill": "^1.3.5",
-    "react-redux": "^7.2.0",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8",
-    "redux-form": "^8.3.6",
-    "redux-thunk": "^2.3.0",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "8.0.2",
@@ -166,24 +68,33 @@
     "typescript": "^4.0.3",
     "url-loader": "4.1.1",
     "web-vitals": "^0.2.4",
-    "uuid": "^7.0.3",
     "webpack": "4.44.2",
     "webpack-dev-server": "3.11.0",
     "webpack-manifest-plugin": "2.2.0",
-    "workbox-webpack-plugin": "5.1.4",
-    "yup": "^0.28.5"
+    "workbox-webpack-plugin": "5.1.4"
   },
-  "devDependencies": {
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-airbnb-typescript": "^7.2.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-mdx": "^1.7.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "mdx-loader": "^3.0.2",
-    "numeral": "^2.0.6",
-    "prettier": "^1.19.1",
-    "typescript": "^4.0.3"
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "jest": {
     "roots": [
@@ -217,8 +128,7 @@
     "modulePaths": [],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
-      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
-      "^src/(.*)$": "<rootDir>/src/$1"
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
     },
     "moduleFileExtensions": [
       "web.js",
@@ -241,12 +151,6 @@
   "babel": {
     "presets": [
       "react-app"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
     ]
   }
 }
